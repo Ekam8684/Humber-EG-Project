@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.collapse ul li {
+    margin: 0 17px;
+    font-size: 18px;
+}
+
+.image-block {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.Upr_nav {
+    justify-content: space-around;
+    display: flex;
+    margin: 10px 0 10px 0;
+    align-items: center;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+}
+
+.Top-Banner {
+
+    justify-content: space-around;
+    display: flex;
+    height: 50px;
+    background-color: #008e3d;
+    color: white;
+    align-items: end;
+}
+
+.navbar-btn {
+    position: relative;
+    width: 100%;
+    background-color: #008e3d;
+}
+
+.collapse ul li a {
+    color: #ffffff;
+}
+
+.phone-section {
+    display: flex;
+    height: 69px;
+}
+
+.PhoneIcon {
+    margin: 15px;
+    color: #1f512b;
+    margin-top: 33px;
+}
+
+.Mail-section {
+    display: flex;
+    height: 69px;
+}
+
+.mailIcon {
+    margin: 15px;
+    color: #1f512b;
+    margin-top: 33px;
+}

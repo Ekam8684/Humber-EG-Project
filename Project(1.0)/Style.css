@@ -311,3 +311,386 @@ form .buttons button,
     width: 100%;
   }
 }
+
+
+
+/* -----------------------------registration-f---------------------------------------------- */
+.containerForm {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.Regisration-block {
+  width: 800px;
+  /* margin-left: 360px; */
+}
+
+.containerForm header {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.containerForm header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 3px;
+  width: 27px;
+  border-radius: 8px;
+  background-color: #4070f4;
+}
+
+.bg-img {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.form-Contact {
+
+  margin: 25px;
+}
+
+.containerForm form {
+  position: relative;
+  margin-top: 16px;
+  min-height: 1500px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.containerForm form .form {
+  position: absolute;
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+
+.containerForm form .form.second {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100%);
+}
+
+form.secActive .form.second {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+form.secActive .form.first {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-100%);
+}
+
+.containerForm form .title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.containerForm form .fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gap-contact-form {
+  margin: 4px 72px;
+}
+
+form .fields .input-field {
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
+  margin: 4px 0;
+}
+
+.form-contect-fclr label,
+input {
+  color: white;
+}
+
+.input-field label {
+  font-size: 20px;
+  font-weight: 550;
+  color: #000000;
+}
+
+.input-field input,
+select {
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 0 15px;
+  height: 42px;
+  margin: 8px 0;
+}
+
+.input-field input :focus,
+.input-field select:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field select,
+.input-field input[type="date"] {
+  color: #474747;
+}
+
+.input-field input[type="date"]:valid {
+  color: #333;
+}
+
+.containerForm form button,
+.backBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  max-width: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 25px 0;
+  background-color: #4070f4;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.containerForm form .btnText {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form button:hover {
+  background-color: #265df2;
+}
+
+form button i,
+form .backBtn i {
+  margin: 0 6px;
+}
+
+form .backBtn i {
+  transform: rotate(180deg);
+}
+
+form .buttons {
+  display: flex;
+  align-items: center;
+}
+
+form .buttons button,
+.backBtn {
+  margin-right: 14px;
+}
+
+.containerFormLoGO {
+  margin-bottom: 30px;
+}
+
+.Form_School-detail_icon {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.Social-media-icon i {
+  margin-right: 5px;
+}
+
+.Form_School-detail_icon p {
+  margin: 10px;
+}
+
+
+
+/* ------------------------------------- */
+
+.Contact-Section {
+  padding-top: 117px;
+  border-radius: 0px 60px 0px 0px;
+  width: 85%;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  z-index: 1500;
+  justify-content: center;
+}
+
+.cs-Block {
+  display: flex;
+  border-radius: 50px;
+  width: 80%;
+  /* flex-wrap: wrap; */
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.288);
+}
+
+.cs-Sec-First {
+  color: #ffffff;
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+  background-color: #1a9a00;
+  padding: 40px;
+}
+
+.containerForm {
+  /* width: 110%; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.About-Section-circle {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.About-Section-circle-img img {
+  width: 500px;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.309);
+  position: absolute;
+  border-radius: 210px 0px 1px 200px;
+  margin-top: 67px;
+  margin-left: 23px;
+  height: 364px;
+}
+
+
+.About-Section-circle p {
+  width: 600px;
+}
+
+.aff-miss-aim-p p {
+  width: 540px;
+}
+
+/* ---------------------------------------------- */
+
+.RandR-section-box {
+  z-index: 1000;
+  position: relative;
+  background-color: #00000080;
+  padding-top: 1px;
+  padding-bottom: 5%;
+}
+
+.RandR-section-box-one {
+  margin-top: 5%;
+  border-radius: 0 130px 130px 0;
+  width: 80%;
+  padding: 70px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.RandR-section-box-two-out {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin: 5% 0;
+}
+
+.RandR-section-box-two {
+  border-radius: 130px 0 0 130px;
+  width: 80%;
+  padding: 70px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.RandR-section-box-two-in {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.RandR-section-box-Three {
+  border-radius: 0 130px 130px 0;
+  width: 80%;
+  padding: 70px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.RandR-section-box-one-three {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.RandR-section-box h1,
+p,
+h2,
+h3 {
+
+  font-weight: 600;
+}
+
+.RandR-section-box-two-time {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 750px) {
+  .containerForm form {
+    overflow-y: scroll;
+  }
+
+  .containerForm form::-webkit-scrollbar {
+    display: none;
+  }
+
+  form .fields .input-field {
+    width: calc(100% / 2 - 15px);
+  }
+}
+
+@media (max-width: 550px) {
+  form .fields .input-field {
+    width: 100%;
+  }
+}
+
+
+
